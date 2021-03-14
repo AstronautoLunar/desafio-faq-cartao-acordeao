@@ -1,21 +1,122 @@
 body {
     margin: 0;
-    padding: 0;
+    padding: 0; 
 }
 
 main {
     width: 100%;
     height: 657px;
     background-image: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
-    padding-top: 200px;
+    padding-top: 80px;
+}
+
+main, div#faq {
     box-sizing: border-box;
 }
 
 div#faq {
-    width: 60%;
-    height: 200px;
+    width: 70%;
+    height: 500px;
     background-color: white;
     border-radius: 20px;
+    background-image: url(/images/illustration-woman-online-desktop.svg), url(/images/bg-pattern-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: -85px 50px, -575px -300px;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 20px;
+}
+
+img[alt="illustration-mobile"] {
+    display: none;
+}
+
+div#faq, div.question {
+    position: relative;
+}
+
+img[alt="box"] {
+    position: absolute;
+    top: 180px;
+    left: -93px;
+    float: left;
+}
+
+div#questions {
+    width: 40%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: 5vmax;
+}
+
+div.question {
+    width: 100%;
+}
+
+p.text-question:hover, img[src*="icon-arrow-down"], p.answer {
+    transition: all 0.2s;
+}
+
+p.text-question:hover {
+    color: hsl(14, 88%, 65%);
+}
+
+h1 {
+    color: hsl(238, 29%, 16%);
+}
+
+h1, p {
+    font-family: "Kumbh Sans";
+}
+
+img[src*="icon-arrow-down"] {
+    float: right;
+    position: absolute;
+    top: 20px;
+    right: 10px;
+}
+
+hr {
+    opacity: 0.5;
+}
+
+.color {
+    color: hsl(237, 12%, 33%);
+    
+}
+
+p.answer {
+    color: hsl(240, 6%, 50%);
+}
+
+div.question > p.answer {
+    font-size: 12px;
+    /* font-weight: 400; */
+}
+
+@media screen and (max-width: 1106px) {
+    div#faq {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    div#questions {
+        width: 100%;
+        align-items: center;
+    }
+
+    div#faq {
+        background-image: none;
+    }
+
+    img[alt="illustration-mobile"] {
+        display: block;
+    }
 }
