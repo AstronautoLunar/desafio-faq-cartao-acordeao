@@ -105,18 +105,46 @@ div.question > p.answer {
         justify-content: center;
         padding: 20px;
         box-sizing: border-box;
+        background-image: url(/images/bg-pattern-mobile.svg);
+        background-position: 50% 0px;
     }
 
     div#questions {
         width: 100%;
         align-items: center;
+        margin-right: 0;
     }
 
-    div#faq {
-        background-image: none;
+    img[alt="box"] {
+        display: none;
     }
 
     img[alt="illustration-mobile"] {
         display: block;
+        position: absolute;
+        top: -110px;
+        margin-right: 30px;
+    }
+}
+
+@media screen and (max-width: 424px) {
+    img[alt="illustration-mobile"] {
+        width: 150px;
+        top: -65px;
+        margin-right: 15px;
+
+    }
+
+    div#faq {
+        background-size: 135px;
+        height: auto;
+    }
+
+    div#questions {
+        margin-top: 40px;
+    }
+
+    p.text-question {
+        font-size: 12px;
     }
 }
