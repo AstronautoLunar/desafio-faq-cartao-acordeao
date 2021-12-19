@@ -1,5 +1,9 @@
 <h1 align="center">FAQ accordion card</h1>
 
+<div align="center">
+  <img src="https://github.com/Pyedrown/desafio-faq-cartao-acordeao/blob/master/presentation.PNG" alt="presentation"/>
+</div>
+
 <p align="center">Concluido o desafio FAQ accordion card do frontEnd Mentor, essa é a minha melhor solução</p>
 
 * [Sobre](#Sobre)
