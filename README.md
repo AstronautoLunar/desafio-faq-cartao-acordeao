@@ -21,11 +21,15 @@ Esse é o meu primeiro desafio concluido do frontEnd Mentor, fiz para aprimorar 
 ## Pre Requisitos
 Você precisa apenas de um editor de código e obviamente de um navegador, recomendo usar o google chrome
 
-# Copie e cole no seu GIT
-$ git clone https://github.com/Pyedrown/desafio-faq-cartao-acordeao.git
+### Copie e cole no seu GIT
+```
+git clone https://github.com/Pyedrown/desafio-faq-cartao-acordeao.git
+```
 
-# e em seguida use
-$ cd faq-accordion-card-main
+### e em seguida use
+```
+cd faq-accordion-card-main
+```
 
 ## Tecnologias
 
