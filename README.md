@@ -11,7 +11,7 @@
 * [Tecnologias](#tecnologias)
 
 <h4 align="center">
-  Concluido
+  ✅ Concluido ✅
 </h4>
 
 ## Sobre
